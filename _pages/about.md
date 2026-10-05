@@ -7,6 +7,16 @@ redirect_from:
   - /about.html
 ---
 
+Where something is going wrong for people, I want to find out why and how we can fix it.
+I'm experienced in developing and leading research projects to find out what is going wrong for whom, why, and how to make changes that have an impact on people's lives. 
+I've worked in the spaces where human rights, intersectional discrimination, new technologies and social justice interact. 
+I write well-researched, rigorous and clear reports, for technical and non-technical audiences.
+
+
+
+
+
+
 
 
 {::comment}

@@ -13,7 +13,7 @@ I'm experienced in developing and leading research projects to find out what is 
 I've worked in the spaces where human rights, intersectional discrimination, new technologies and social justice interact. 
 I write well-researched, rigorous and clear papers and reports, for technical and non-technical audiences.
 
-I'm currently an Affiliate Fellow with the [Ada Lovelace Institute](https://www.adalovelaceinstitute.org/) and a Programme Manager at [OLS](https://we=are=ols.org). I'm also a Board member at [HURIDOCS](https://huridocs.org/).
+I'm currently an Affiliate Fellow with the [Ada Lovelace Institute](https://www.adalovelaceinstitute.org/) and a Programme Manager at [OLS](https://we\`=\`are\`=ols.org). I'm also a Board member at [HURIDOCS](https://huridocs.org/).
 
 
 

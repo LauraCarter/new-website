@@ -5,32 +5,48 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+Sobey A and **Carter L**, \`'[The Harmful Fetishisation of Reductive Personal Tracking Metrics in Digital Systems](https://dl.acm.org/doi/10.1145/3630106.3658943),' The 2024 ACM Conference on Fairness, Accountability, and Transparency (Association for Computing Machinery 2024) 
 
-{% include base_path %}
+**Carter L**, '[Machine-Readable Lives or \`'Troubled Families\`'? Classification, categorisation and stereotyping in data collection and sharing in children\`'s social care in England](https://repository.essex.ac.uk/36627/),' (PhD thesis, 2023)
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
+**Carter L**, \`'[Prescripted Living: Gender Stereotypes and Data-Based Surveillance in the UK Welfare State](https://policyreview.info/articles/analysis/prescripted-living-gender-stereotypes-and-data-based-surveillance-uk-welfare-state)\`'' (2021) 10 Internet Policy Review
+
+**Carter L**, \`'[Imperfect Models of the World: Gender Stereotypes and Assumptions in Covid-19 Responses](http://repository.essex.ac.uk/28041/)\`'' in Carla Ferstman and Andrew Fagan (eds), _Covid-19, Law and Human Rights: Essex Dialogues. A Project of the School of Law and Human Rights Centre_ (University of Essex 2020)
+
+
+
+
+<!---
+this is the code for the more complicated publications layout
+
+
+  {% if site.author.googlescholar %}
+    <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+  {% endif %}
+
+  {% include base_path %}
+
+  <\`!-- New style rendering if publication categories are defined --\`>
+
+  {% if site.publication_category %}
+    {% for category in site.publication_category  %}
+      {% assign title_shown = false %}
+      {% for post in site.publications reversed %}
+        {% if post.category != category[0] %}
+          {% continue %}
+        {% endif %}
+        {% unless title_shown %}
+          <h2>{{ category[1].title }}</h2><hr />
+          {% assign title_shown = true %}
+        {% endunless %}
+        {% include archive-single.html %}
+      {% endfor %}
+    {% endfor %}
+  {% else %}
     {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
       {% include archive-single.html %}
     {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+  {% endif %}
 
-
+-->
 

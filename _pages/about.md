@@ -8,12 +8,12 @@ redirect_from:
 ---
 
 Where something is going wrong for people, I want to find out why and how we can fix it.
+
 I'm experienced in developing and leading research projects to find out what is going wrong for whom, why, and how to make changes that have an impact on people's lives. 
 I've worked in the spaces where human rights, intersectional discrimination, new technologies and social justice interact. 
-I write well-researched, rigorous and clear reports, for technical and non-technical audiences.
+I write well-researched, rigorous and clear papers and reports, for technical and non-technical audiences.
 
-
-
+I'm currently an Affiliate Fellow with the [Ada Lovelace Institute](https://www.adalovelaceinstitute.org/) and a Programme Manager at [OLS](we=are=ols.org). I'm also a Board member at [HURIDOCS](https://huridocs.org/).
 
 
 

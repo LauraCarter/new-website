@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "mint" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
+site_theme               : "dirt" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
 title                    : "Laura Carter"
 title_separator          : "-"
 name                     : &name "Laura Carter"
@@ -26,7 +26,7 @@ author:
   avatar           : "LC.png"
   name             : "Laura Carter"
   pronouns         : "she/her"  # example: "she/her"
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "Feminist critical technology research, community building, and deconcentrating power."
   location         : "Seattle, USA"
   employer         : # "Red Brick University"
   uri              : # URL
